@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7dcdae182e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        
+        <input type="text" class="input_box1" readonly>
+        <input type="text" class="input_box2" value="0">
+        <br>
+        <button class="histBtn" onclick="history()"><i class="fa-solid fa-clock-rotate-left"></i></button>
+
+        <div class="button_div">
+
+            <input class="btn" type="button" onclick="clr()" value="C">
+            <button class="btn" onclick="backSpace()"><i class="fa-solid fa-delete-left"></i></button>
+            <input class="btn" type="button" onclick="percent()" value="%">
+            <input class="btn" type="button" value="AE">
+            
+            <br>
+            <input class="btn" type="button" onclick="get_val('7')" value="7">
+            <input class="btn" type="button" onclick="get_val('8')" value="8">
+            <input class="btn" type="button" onclick="get_val('9')" value="9">
+            <input class="btn" type="button" onclick="get_opretor('/')" value="/">
+            <br>
+            <input class="btn" type="button" onclick="get_val('4')" value="4">
+            <input class="btn" type="button" onclick="get_val('5')" value="5">
+            <input class="btn" type="button" onclick="get_val('6')" value="6">
+            <input class="btn" type="button" onclick="get_opretor('*')" value="*">
+            <br>
+            <input class="btn" type="button" onclick="get_val('1')" value="1">
+            <input class="btn" type="button" onclick="get_val('2')" value="2">
+            <input class="btn" type="button" onclick="get_val('3')" value="3">
+            <input class="btn" type="button" onclick="get_opretor('-')" value="-">
+            <br>
+            <input class="btn" type="button" onclick="get_ans()" value="=" style="background-color: maroon;">
+            <input class="btn" type="button" onclick="get_val('0')" value="0">
+            <input class="btn" type="button" onclick="get_val('.')" value=".">
+            <input class="btn" type="button" onclick="get_opretor('+')" value="+">
+            <br>
+            </div>
+            <div class="history">
+                <button class="histBtn" style="background-color:rgb(241, 117, 98);"><i class="fa-solid fa-trash"></i></button>
+                <!-- <h3 style="color:rgb(76, 76, 76)">There's no history Yet.....</h3> -->
+            </div>
+    </div>
+    <script src="js/index1.js"></script>
+</body>
+</html>

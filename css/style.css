@@ -1,0 +1,73 @@
+.main{
+    border: 2px solid black;
+    height: 470px;
+    width: 450px;
+    margin: auto;
+   
+}
+
+.btn{
+    height: 50px;
+    width : 100px;
+    padding-left: 15px;
+    margin: auto;
+    margin-top: 10px;
+    background-color :rgb(77, 78, 81);
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    color: antiquewhite;
+}
+.input_box1,.input_box2{
+    height: 50px;
+    width: 405px;
+    margin-left: 19px;
+    
+    background-color: rgb(186, 186, 186);
+    border: none;
+    border-radius: 3px;
+    text-align: right;
+    font-size: x-large;
+}
+.button_div{
+    margin-left: 19px;
+    position: absolute;
+}
+
+.input_box2,.input_box1:focus{
+    outline: none;
+    border-top-right-radius: 0px;             
+    border-top-left-radius: 0px;             
+}
+
+.input_box1{
+    border-bottom: none;
+    margin-top: 15px;
+    border-bottom-right-radius: 0px;             
+    border-bottom-left-radius: 0px; 
+}
+.input_box2{
+    border-top: none;
+}
+
+.history{
+    margin-left: 19px;
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: 412px;
+    visibility: hidden;
+    overflow: auto;
+}
+
+.histBtn{
+    height: 30px;
+    width : 30px;
+    border-radius: 50%;
+    color: whitesmoke;
+    border: none;
+    background-color: blueviolet;
+    margin-left: 19px;
+    margin-top: 5px;
+
+}
